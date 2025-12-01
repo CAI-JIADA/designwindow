@@ -13,6 +13,84 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+    background-color: #2b2b2b;
+}
+
+QMenuBar {
+    background-color: #3c3f41;
+    color: #bbbbbb;
+    border-bottom: 1px solid #555555;
+}
+
+QMenuBar::item {
+    background-color: transparent;
+    padding: 4px 10px;
+}
+
+QMenuBar::item:selected {
+    background-color: #4b6eaf;
+    color: #ffffff;
+}
+
+QMenu {
+    background-color: #3c3f41;
+    color: #bbbbbb;
+    border: 1px solid #555555;
+}
+
+QMenu::item:selected {
+    background-color: #4b6eaf;
+    color: #ffffff;
+}
+
+QMenu::separator {
+    height: 1px;
+    background-color: #555555;
+    margin: 4px 10px;
+}
+
+QToolBar {
+    background-color: #3c3f41;
+    border: none;
+    spacing: 3px;
+    padding: 3px;
+}
+
+QToolBar::separator {
+    width: 1px;
+    background-color: #555555;
+    margin: 4px 2px;
+}
+
+QToolButton {
+    background-color: transparent;
+    color: #bbbbbb;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+QToolButton:hover {
+    background-color: #4b6eaf;
+    color: #ffffff;
+}
+
+QToolButton:pressed {
+    background-color: #3d5a8a;
+}
+
+QStatusBar {
+    background-color: #3c3f41;
+    color: #bbbbbb;
+    border-top: 1px solid #555555;
+}
+
+QWidget#centralwidget {
+    background-color: #2b2b2b;
+}</string>
+  </property>
   <widget class="QWidget" name="centralwidget"/>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
