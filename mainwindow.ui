@@ -13,7 +13,13 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTextEdit" name="textEdit"/>
+    </item>
+   </layout>
+  </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
@@ -81,6 +87,10 @@
    <addaction name="actionPaste"/>
   </widget>
   <action name="actionNew">
+   <property name="icon">
+    <iconset resource="designwindow.qrc">
+     <normaloff>:/images/images/new.png</normaloff>:/images/images/new.png</iconset>
+   </property>
    <property name="text">
     <string>新增(N)</string>
    </property>
@@ -89,6 +99,10 @@
    </property>
   </action>
   <action name="actionOpen">
+   <property name="icon">
+    <iconset resource="designwindow.qrc">
+     <normaloff>:/images/images/open.png</normaloff>:/images/images/open.png</iconset>
+   </property>
    <property name="text">
     <string>開啟(O)</string>
    </property>
@@ -97,6 +111,10 @@
    </property>
   </action>
   <action name="actionClose">
+   <property name="icon">
+    <iconset resource="designwindow.qrc">
+     <normaloff>:/images/images/close.png</normaloff>:/images/images/close.png</iconset>
+   </property>
    <property name="text">
     <string>關閉(C)</string>
    </property>
@@ -105,6 +123,10 @@
    </property>
   </action>
   <action name="actionSave">
+   <property name="icon">
+    <iconset resource="designwindow.qrc">
+     <normaloff>:/images/images/save.png</normaloff>:/images/images/save.png</iconset>
+   </property>
    <property name="text">
     <string>儲存(S)
 </string>
@@ -114,6 +136,10 @@
    </property>
   </action>
   <action name="actionAsave">
+   <property name="icon">
+    <iconset resource="designwindow.qrc">
+     <normaloff>:/images/images/asave.png</normaloff>:/images/images/asave.png</iconset>
+   </property>
    <property name="text">
     <string>另存新檔(A)
 </string>
@@ -123,6 +149,10 @@
    </property>
   </action>
   <action name="actionQuit">
+   <property name="icon">
+    <iconset resource="designwindow.qrc">
+     <normaloff>:/images/images/Quit.png</normaloff>:/images/images/Quit.png</iconset>
+   </property>
    <property name="text">
     <string>匯出(X)
 </string>
@@ -132,6 +162,10 @@
    </property>
   </action>
   <action name="actionUndo">
+   <property name="icon">
+    <iconset resource="designwindow.qrc">
+     <normaloff>:/images/images/undo.png</normaloff>:/images/images/undo.png</iconset>
+   </property>
    <property name="text">
     <string>還原(U)
 </string>
@@ -141,6 +175,10 @@
    </property>
   </action>
   <action name="actionCut">
+   <property name="icon">
+    <iconset resource="designwindow.qrc">
+     <normaloff>:/images/images/cut.png</normaloff>:/images/images/cut.png</iconset>
+   </property>
    <property name="text">
     <string>剪下(T)</string>
    </property>
@@ -149,6 +187,10 @@
    </property>
   </action>
   <action name="actionAll">
+   <property name="icon">
+    <iconset resource="designwindow.qrc">
+     <normaloff>:/images/images/All.png</normaloff>:/images/images/All.png</iconset>
+   </property>
    <property name="text">
     <string>全選(A)
 </string>
@@ -158,6 +200,10 @@
    </property>
   </action>
   <action name="actionCopy">
+   <property name="icon">
+    <iconset resource="designwindow.qrc">
+     <normaloff>:/images/images/copy.png</normaloff>:/images/images/copy.png</iconset>
+   </property>
    <property name="text">
     <string>複製(C)
 </string>
@@ -167,6 +213,10 @@
    </property>
   </action>
   <action name="actionPaste">
+   <property name="icon">
+    <iconset resource="designwindow.qrc">
+     <normaloff>:/images/images/paste.png</normaloff>:/images/images/paste.png</iconset>
+   </property>
    <property name="text">
     <string>貼上(P)
 </string>
@@ -176,6 +226,8 @@
    </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="designwindow.qrc"/>
+ </resources>
  <connections/>
 </ui>
